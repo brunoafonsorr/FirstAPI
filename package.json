@@ -1,0 +1,17 @@
+{
+  "type": "module",
+  "scripts": {
+    "start": "tsx --watch server.ts"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.16.1",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "prisma": "^5.16.1",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.15.7",
+    "typescript": "^5.5.2"
+  }
+}
